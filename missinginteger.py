@@ -1,5 +1,5 @@
 def solution(A):
-    # write your code in Python 2.7
+    # write your code in Python 3.6
 
     N = len(A)
     ints = [0] * (N + 2)
@@ -14,3 +14,10 @@ def solution(A):
 
     # should never happen
     return -1
+
+A = [1, 3, 6, 4, 1, 2]
+print(solution(A))
+A = [1, 2, 3]
+print(solution(A))
+A = [-1, -3]
+print(solution(A))
